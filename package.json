@@ -9,15 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "11.0.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "axios": "^0.21.1",
+    "bufferutil": "^4.0.3",
+    "chart.js": "^3.2.1",
+    "clsx": "^1.1.1",
+    "fullcalendar": "^5.5.1",
+    "next": "10.2.0",
+    "nextjs-progressbar": "0.0.9",
     "react": "17.0.2",
+    "react-calendar": "^3.4.0",
+    "react-chartjs-2": "^3.0.3",
     "react-dom": "17.0.2",
-    "socket.io-client": "^4.1.2"
+    "react-google-login": "^5.2.2",
+    "react-swipeable": "^6.1.2",
+    "socket.io-client": "^4.1.2",
+    "sweetalert2": "^11.0.16",
+    "webpack-node-externals": "^3.0.0",
+    "ws": "^7.5.2"
   },
   "devDependencies": {
-    "@types/react": "17.0.13",
-    "eslint": "7.30.0",
-    "eslint-config-next": "11.0.1",
-    "typescript": "4.3.5"
+    "@types/node": "^15.0.1",
+    "@types/react": "^17.0.4",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "sass": "^1.32.12",
+    "tailwindcss": "^2.1.2",
+    "typescript": "^4.2.4"
   }
 }
